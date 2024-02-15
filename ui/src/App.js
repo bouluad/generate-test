@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import SummaryGenerator from './summaryGenerator';
-import './styles.css'; // Import CSS file
+import Chat from './Chat';
 
 function App() {
   return (
-    <div className="container"> {/* Apply container class */}
-      <h1>GitHub Summary Generator</h1>
-      <SummaryGenerator />
+    <div className="App">
+      <h1>ChatGPT UI</h1>
+      <Chat />
     </div>
   );
 }
